@@ -1,0 +1,315 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+
+
+
+
+/*  --------------------------
+             NAV BAR 
+    -------------------------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+img.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.unordered{
+    list-style: none;
+    padding-top: 20px;
+}
+.nav-link{
+    display: inline;
+    padding: 0rem 1rem;
+}
+.navigation-bar{
+    background-color: rgb(3, 155, 250);
+   padding: 1rem; 
+   border-bottom-left-radius: 2rem;
+   margin-bottom: 30px;
+}
+.link-active{
+    font-weight: bold;
+    color: black;
+    transition: ease-in-out 0.5s;
+
+}
+
+
+
+
+/* --------------------------------------------------- */
+/*  --------------------------
+             LINKS
+    -------------------------- */
+a{
+    color: white;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    letter-spacing: 2px;
+}
+
+a.primary-link{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+a.primary-link:hover{
+    color: #fff;
+    background-color: rgb(3, 155, 250);
+}
+
+a.secondary-link{
+    color: rgb(3, 155, 250);
+    padding: 10px;
+    border: 2px solid rgb(3, 155, 250);
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+a.secondary-link:hover{
+    color: white;
+    background-color: rgb(3, 155, 250);
+}
+
+/* --------------------------------------------------- */
+
+
+/*  --------------------------
+             HEADER
+    -------------------------- */
+
+.head{
+    padding: 2rem;
+}
+.head .head-img{
+    height: 300px;
+    width: 300px;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 3px solid white;
+
+}
+.head .head-img:hover{
+    border: 3px solid rgb(3, 155, 250);
+    transition: ease-in-out 0.5s;
+}
+.head .headhead{
+    padding-top:1rem ;
+    text-align: center;
+    color: rgb(255, 254, 254);
+}
+
+.intro{
+    color: rgb(3, 155, 250);
+}
+.cv{
+    background-color: red;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-flex;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+ul.center{
+    text-align: center;
+    padding-inline-start:0;
+
+}
+li.nav-link a:hover{
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    transition: ease-in-out 0.5s;
+}
+a.cv:hover{
+    background-color: rgb(51, 51, 51);
+    transition: ease-in-out 0.5s;
+}
+/* --------------------------------------------------- */
+
+
+/*  --------------------------
+             SECTIONS
+    -------------------------- */
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+    color: rgb(3, 155, 250);
+    font-size: 30px;
+    padding-bottom: 15px;
+
+}
+p{
+    color: #fff;
+}
+.projects{
+    margin-bottom: 2rem;
+}
+
+p{
+    padding-bottom: 30px;
+}
+
+div.container{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.skill-icon{
+    width: 100px;
+    height: 100px;
+    margin: 26px;
+
+}
+.skill-icon-git{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    margin: 26px;
+}
+
+.main-page-img{
+    width: 300px;
+    height: 300px;
+}
+.main-page-img2{
+    width: 390px;
+    height: 300px;
+}
+
+/* --------------------------------
+            FOOTER
+-----------------------------------*/
+footer{
+    background-color: rgb(3, 155, 250);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    border-top-right-radius: 2rem;
+
+}
+.footer-head{
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+
+
+
+  /* --------------
+       PROJECT
+   --------------- */
+.halfheading{
+    color: rgb(3, 155, 250);
+}
+.projecth1{
+    color: rgb(3, 155, 250);
+}
+small{
+    color: white;
+}
+.margin-project{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+  /* --------------
+       BLOGS
+   --------------- */
+.blog-img{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+  /* ------------------
+       CONTACT FORM
+   -------------------- */
+
+  .contact-form{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  input[type="text"],
+  input[type="email"]{
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  textarea{
+    width: 100%;
+    margin-top:10px ;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  input[type="submit"]{
+    padding: 10px;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: bold;  }
+  input[type="submit"]:hover{
+    color: #fff;
+    background-color: rgb(3, 155, 250);
+  }
+
+
+
+
+
+  /* ------------------
+       MEDIA 
+   -------------------- */
+
+
+   @media screen and (max-width: 610px) {
+    .nav-link{
+        display: flex;
+        flex-direction: column;
+        margin: 8px;
+    }
+    .unordered{
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    .skill-icon-container{
+        display: inline-flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+
+    }
+
+
+  }
