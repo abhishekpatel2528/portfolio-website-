@@ -46,6 +46,16 @@ img.logo{
     transition: ease-in-out 0.5s;
 
 }
+ul.center{
+    text-align: center;
+    padding-inline-start:0;
+
+}
+li.nav-link a:hover{
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    transition: ease-in-out 0.5s;
+}
 
 
 
@@ -134,16 +144,7 @@ a.secondary-link:hover{
     display: flex;
     justify-content: center;
 }
-ul.center{
-    text-align: center;
-    padding-inline-start:0;
 
-}
-li.nav-link a:hover{
-    color: rgb(0, 0, 0);
-    border-bottom: 2px solid rgb(0, 0, 0);
-    transition: ease-in-out 0.5s;
-}
 a.cv:hover{
     background-color: rgb(51, 51, 51);
     transition: ease-in-out 0.5s;
@@ -296,6 +297,9 @@ small{
 
 
    @media screen and (max-width: 610px) {
+        img.logo{
+        margin-top: 40px;
+    }
     .nav-link{
         display: flex;
         flex-direction: column;
