@@ -290,7 +290,7 @@ small{
     background-color: rgb(3, 155, 250);
   }
   ::placeholder{
-    color: rgb(65, 65, 65);
+    color: rgb(55, 54, 54, 0.507);
   }
 
 
