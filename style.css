@@ -302,7 +302,7 @@ small{
    -------------------- */
 
 
-   @media screen and (max-width: 610px) {
+   @media screen and (max-width: 645px) {
         img.logo{
         margin-top: 30px;
     }
