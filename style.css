@@ -81,6 +81,7 @@ a.primary-link{
 a.primary-link:hover{
     color: #fff;
     background-color: rgb(3, 155, 250);
+    transition: ease-in-out 0.3s;
 }
 
 a.secondary-link{
@@ -94,6 +95,7 @@ a.secondary-link{
 a.secondary-link:hover{
     color: white;
     background-color: rgb(3, 155, 250);
+    transition: ease-in-out 0.3s;
 }
 
 /* --------------------------------------------------- */
@@ -233,6 +235,7 @@ footer{
 }
 .projecth1{
     color: rgb(3, 155, 250);
+    font-size: 25px;
 }
 small{
     color: white;
@@ -240,6 +243,8 @@ small{
 .margin-project{
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
