@@ -106,7 +106,7 @@ a.secondary-link:hover{
     -------------------------- */
 #particles-js{
     position: absolute;
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
     border-bottom: 2px solid white;
 }
@@ -343,8 +343,5 @@ small{
         flex-direction: column;
         justify-content:space-evenly;
 
-    }
-    #particles-js{
-        height: 100vh;
     }
   }
