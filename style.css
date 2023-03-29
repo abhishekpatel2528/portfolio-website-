@@ -106,8 +106,9 @@ a.secondary-link:hover{
     -------------------------- */
 #particles-js{
     position: absolute;
-    height: 91vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
+    border-bottom: 2px solid white;
 }
 .head{
     padding: 2rem;
@@ -120,7 +121,8 @@ a.secondary-link:hover{
     display: block;
     margin: auto;
     border-radius: 50%;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     border: 3px solid white;
 }
 
@@ -129,7 +131,8 @@ a.secondary-link:hover{
     transition: ease-in-out 0.3s;
 }
 .head .headhead{
-    padding-top:1rem ;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     text-align: center;
     color: rgb(255, 254, 254);
     line-height: 4rem;
@@ -343,6 +346,6 @@ small{
         justify-content:space-evenly;
     }
     #particles-js{
-        height: 99vh;
+        height: 110%;
     }
   }
