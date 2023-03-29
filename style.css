@@ -106,7 +106,7 @@ a.secondary-link:hover{
     -------------------------- */
 #particles-js{
     position: absolute;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     border-bottom: 2px solid white;
 }
@@ -115,9 +115,9 @@ a.secondary-link:hover{
 }
 .head .head-img{
     position: relative;
-    height: 400px;
-    width: 400px;
-    max-width: 400px;
+    height: 350px;
+    width: 350px;
+    max-width: 350px;
     display: block;
     margin: auto;
     border-radius: 50%;
@@ -173,9 +173,8 @@ a.cv:hover{
     color: rgb(3, 155, 250);
     font-size: 30px;
     padding-bottom: 15px;
-    padding-top: 15px;
-
 }
+
 p{
     color: #fff;
 }
@@ -345,6 +344,7 @@ small{
         justify-content:space-evenly;
 
     }
-
-
+    #particles-js{
+        height: 100vh;
+    }
   }
