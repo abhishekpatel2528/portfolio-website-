@@ -104,21 +104,27 @@ a.secondary-link:hover{
 /*  --------------------------
              HEADER
     -------------------------- */
-
+#particles-js{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    border-bottom: 2px solid white;
+}
 .head{
     padding: 2rem;
 }
 .head .head-img{
-    height: 300px;
-    width: 300px;
-    max-width: 350px;
+    position: relative;
+    height: 400px;
+    width: 400px;
+    max-width: 400px;
     display: block;
     margin: auto;
     border-radius: 50%;
-    margin-top: 20px;
+    margin-top: 30px;
     border: 3px solid white;
-
 }
+
 .head .head-img:hover{
     border: 3px solid rgb(3, 155, 250);
     transition: ease-in-out 0.3s;
@@ -127,19 +133,21 @@ a.secondary-link:hover{
     padding-top:1rem ;
     text-align: center;
     color: rgb(255, 254, 254);
+    line-height: 4rem;
 }
 
 .intro{
     color: rgb(3, 155, 250);
 }
 .cv{
+    position: relative;
     background-color: red;
     padding: 20px 25px;
     text-decoration: none;
     font-weight: bold;
     color: #fff;
     display: inline-flex;
-    margin: 30px 0;
+    margin: 40px 0;
     border-radius: 10px;
 }
 .btn{
@@ -165,6 +173,7 @@ a.cv:hover{
     color: rgb(3, 155, 250);
     font-size: 30px;
     padding-bottom: 15px;
+    padding-top: 15px;
 
 }
 p{
