@@ -16,7 +16,7 @@ body{
 /*  --------------------------
              NAV BAR 
     -------------------------- */
-nav{
+/* nav{
     display: flex;
     justify-content: space-between;
 }
@@ -41,21 +41,18 @@ img.logo{
    margin-bottom: 30px;
 }
 .link-active{
-    font-weight: bold;
     color: black;
-    transition: ease-in-out 0.5s;
 
 }
 ul.center{
     text-align: center;
     padding-inline-start:0;
 
-}
-li.nav-link a:hover{
+} */
+/* li.nav-link a:hover{
     color: rgb(0, 0, 0);
-/*     border-bottom: 2px solid rgb(0, 0, 0); */
     transition: ease-in-out 0.3s;
-}
+} */
 
 
 
@@ -113,7 +110,7 @@ a.secondary-link:hover{
     padding: 2.5rem;
 }
 .head .head-img{
-    position: relative;
+    /* position: relative; */
     height: 300px;
     width: 300px;
     max-width: 300px;
@@ -141,7 +138,7 @@ a.secondary-link:hover{
     color: rgb(3, 155, 250);
 }
 .cv{
-    position: relative;
+    /* position: relative; */
     background-color: red;
     padding: 20px 25px;
     text-decoration: none;
@@ -326,10 +323,7 @@ small{
    -------------------- */
 
 
-   @media screen and (max-width: 645px) {
-        img.logo{
-        margin-top: 30px;
-    }
+   /* @media screen and (max-width: 645px) {
     .nav-link{
         display: flex;
         flex-direction: column;
@@ -347,4 +341,4 @@ small{
     #particles-js{
         height: 103vh;
     }
-  }
+  } */
