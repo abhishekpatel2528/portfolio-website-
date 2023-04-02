@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blogs | Abhishek Patel</title>
     <link rel="icon" type="image/x-icon" href="assets/Logo.jpg" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
     <link rel="stylesheet" href="style-icon.css" />
+    <link rel="stylesheet" href="stylenavbar.css">
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/66aa7c98b3.js"
@@ -16,32 +21,30 @@
   <body>
     <!-- -----------header--------- -->
 
-    <div class="nav-container">
-      <nav class="navigation-bar">
+    <header class="nav-header">
+      <nav>
         <img class="logo" src="assets/Logo.jpg" alt="" />
-        <div></div>
-        <ul class="unordered">
-          <li class="nav-link">
-            <a href="index.html">HOME</a>
+        <i class="fas fa-bars" id="ham-menu"></i>
+        <ul id="nav-bar">
+          <li>
+            <a href="index.html">Home</a>
           </li>
-          <li class="nav-link">
-            <a href="projects.html">PROJECTS</a>
+          <li>
+            <a href="projects.html">Projects</a>
           </li>
-
-          <li class="nav-link">
-            <a href="blogs.html" class="link-active">BLOGS</a>
+          <li>
+            <a href="blogs.html" class="link-active">Blogs</a>
           </li>
-          <li class="nav-link">
-            <a href="contact.html">CONTACT ME</a>
+          <li>
+            <a href="contact.html">Contact</a>
           </li>
         </ul>
       </nav>
-    </div>
+    </header>
     <hr />
     <header class="head">
       <h1 class="headhead">My <span class="halfheading"> Blogs</span></h1>
     </header>
-    <hr />
     <ul class="unordered">
       <li>
         <div class="container margin-project">
@@ -73,5 +76,6 @@
         </ul>
     </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

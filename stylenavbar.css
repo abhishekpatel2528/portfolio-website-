@@ -1,0 +1,122 @@
+/* *:not(i) {
+    font-family: "Poppins", sans-serif;
+  } */
+ .nav-header{
+    /* position: fixed; */
+    width: 100%;
+    background-color:rgb(3, 155, 250);
+    padding: 1rem 3rem;
+    border-bottom-left-radius: 2rem;
+  }
+  img.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+  }
+  nav a {
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  nav a#logo {
+    color: #000000;
+    font-weight: 700;
+  }
+  nav ul a {
+    color: #ffffff;
+    /* font-weight: 600; */
+  }
+  nav ul a:hover {
+    color: black;
+    transition: ease-in-out 0.5s;
+  }
+  #ham-menu {
+    display: none;
+  }
+  nav ul.active {
+    left: 0;
+  }
+  /* @media only screen and (max-width: 991px) {
+    html {
+      font-size: 56.25%;
+    }
+    .nav-header{
+      padding: 2.2rem 5rem;
+    }
+  } */
+  @media only screen and (max-width: 767px) {
+    /* html {
+      font-size: 50%;
+    } */
+    #ham-menu {
+      display: block;
+      color: #ffffff;
+    }
+    nav a#logo,
+    #ham-menu {
+      font-size: 2.2rem;
+    }
+    nav ul {
+      background-color: black;
+      position: absolute;
+      left: -100vw;
+      top: 126.6px;
+      width: 100vw;
+      height: calc(100vh - 73.6px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      transition: 0.5s;
+      gap: 0;
+    }
+    nav ul a{
+        font-size: 1.5rem;
+    }
+    .link-active{
+      background-color:rgb(3, 155, 250);
+      border-radius: 40px;
+      padding: 10px 91px;
+  }
+  nav ul a:hover{
+    background-color:rgb(3, 155, 250);
+    border-radius: 40px;
+    padding: 10px 91px;
+}
+  }
+  
+  @media only screen and (max-width: 575px) {
+    /* html {
+      font-size: 46.87%;
+    } */
+    .nav-header{
+      padding: 1rem 2rem;
+    }
+    nav ul {
+      top: 130.18px;
+      height: calc(93vh - 65.18px);
+    }
+    nav ul a{
+        font-size: 1.5rem;
+    }
+    .link-active{
+      background-color:rgb(3, 155, 250);
+      border-radius: 40px;
+      padding: 10px 91px;
+  }
+  nav ul a:hover{
+
+    background-color:rgb(3, 155, 250);
+    border-radius: 40px;
+    padding: 10px 91px;
+}
+  }
